@@ -114,7 +114,7 @@ a:hover {
     left: 10px;
     width: 50px; /* يمكن تعديل الحجم حسب الرغبة */
     height: 50px; /* نفس الشيء هنا، تأكد من أن الصورة المتحركة تظهر بشكل مناسب */
-    background-image: url('https://media.tenor.com/images/8a1b2e926a47315b05303a7fa5cd39b1/tenor.gif');
+    background-image: url('https://i.imgur.com/kFEYmRg.gif'); /* رابط الـ GIF */
     background-size: contain;
     background-repeat: no-repeat;
 }
