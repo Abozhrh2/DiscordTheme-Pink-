@@ -24,6 +24,7 @@
 body {
     background-color: var(--background-primary);
     color: var(--text-normal);
+    font-family: Arial, sans-serif; /* إضافة خط للواجهة */
 }
 
 .header,
@@ -32,13 +33,16 @@ body {
     background-color: var(--background-secondary);
     color: var(--text-normal);
     position: relative; /* تأكد من وجود هذه الخاصية لتمكين وضع الصورة بشكل دقيق */
+    padding: 10px; /* تحسين التنسيق داخل العناصر */
 }
 
 .button {
     background-color: var(--interactive-normal);
     color: #ffffff;
     border: 1px solid var(--interactive-hover);
+    border-radius: 5px; /* تحسين الشكل العام للأزرار */
     transition: background-color 0.3s;
+    padding: 8px 16px; /* إضافة حواف للأزرار لجعلها أكبر */
 }
 
 .button:hover {
@@ -68,6 +72,7 @@ body {
 a {
     color: var(--text-accent);
     text-decoration: none;
+    font-weight: bold; /* تحسين الخط للأيقونات والروابط */
 }
 
 a:hover {
@@ -89,6 +94,7 @@ a:hover {
     padding: 15px;
     border-radius: 10px;
     color: var(--text-normal);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* إضافة تأثير الظل */
 }
 
 .card:hover {
